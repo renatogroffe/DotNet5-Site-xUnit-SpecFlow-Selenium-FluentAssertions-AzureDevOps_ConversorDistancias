@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:5.0.400 AS build-env
+FROM mcr.microsoft.com/dotnet/sdk:5.0.401 AS build-env
 WORKDIR /app
 
 # Exibir a versão do SDK do .NET 5
